@@ -1,0 +1,24 @@
+.warning {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 221px;
+  height: 221px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border: 2px solid black;
+
+  > div {
+    background-image: url("/Images/Signpost.svg");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    background-size: contain;
+  }
+}

@@ -1,0 +1,29 @@
+.roundButton {
+  min-width: 120px;
+  min-height: 120px;
+  border-radius: 50%;
+  transition: all ease 300ms;
+}
+
+.shortcut {
+  transition: all ease 300ms;
+  background: linear-gradient(
+      90deg,
+      rgba(113, 167, 214, 0.85) 0%,
+      rgba(150, 94, 152, 1) 100%
+    )
+    coral;
+  rotate: -45deg;
+  &:hover {
+    background: coral;
+  }
+}
+
+.checkMark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: green;
+  background-color: white;
+  border-radius: 50%;
+}

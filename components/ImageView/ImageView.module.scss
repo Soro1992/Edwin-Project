@@ -1,0 +1,26 @@
+.main {
+  height: 36vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  margin: 2em 0 24px 0;
+  justify-self: center;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.zoom {
+  background-image: url("/Images/right-arrow.svg");
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}

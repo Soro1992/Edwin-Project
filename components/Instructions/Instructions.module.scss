@@ -1,0 +1,40 @@
+.main {
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  padding-left: 5em;
+  padding-right: 5em;
+  flex-direction: row;
+  gap: 9em;
+  justify-content: center;
+  align-items: center;
+
+  > div {
+    height: 100%;
+    // width: 50%;
+
+    > div {
+      width: 100%;
+      height: calc(100% - 30px);
+      display: flex;
+      //   align-items: center;
+      justify-content: center;
+
+      img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
+
+.container {
+  display: block;
+  // flex-direction: column;
+}
+
+.imageBox {
+  display: flex;
+  justify-content: center;
+}

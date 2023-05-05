@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding-top: 5em;
+
+  .ratingBox {
+    min-height: 20vh;
+    margin-bottom: 16px;
+  }
+
+  .rating {
+    transform: translate(0, 50%);
+    scale: 5 5;
+  }
+
+  .commentBox {
+    width: 50%;
+  }
+}
