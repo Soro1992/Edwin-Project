@@ -17,7 +17,7 @@ const InnerApp = ({ Component, pageProps }) => {
 
   useEffect(() => {
     Parse.initialize("dev", "devdev");
-    Parse.serverURL = "https://crowdsourced-image-backend.herokuapp.com/parse";
+    Parse.serverURL = "https://thesis-image-backend.herokuapp.com/parse";
     // Parse.serverURL = "http://localhost:1337/api/parse";
     let current = Parse.User.current();
     if (current) {
